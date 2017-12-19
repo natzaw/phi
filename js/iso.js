@@ -124,7 +124,7 @@ function ani() {
 	/* move camera forward 
 	 * from the plane of the screen;
 	 * new position is where your eyes are */
-	 CAM.position.z = 300;
+	 CAM.position.z =270;
 
 	 /* set pixer ratio, dimensions, background */
 	 RENDERER.setPixelRatio(window.devicePixelRatio);

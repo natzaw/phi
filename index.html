@@ -7,48 +7,48 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.js"></script>
+	<!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.js"></script> -->
 
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 
-	<link rel="icon" type="image/png" href="../images/phifavicon.png" >
+	<link rel="icon" type="image/png" href="../images/favilogo.png" >
 
 	
+	<link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed" rel="stylesheet">
-
- <!-- Animation credits:  -->
 	
 
+ <!-- Code Pen Animation Credits: 
+ Captain Anonymous https://codepen.io/anon/pen/GOgRZB 
+ Chris Aldrige https://codepen.io/digitalhour/pen/WvGJVV
+  -->
+	
 	<title>P h i  L a b</title>
 
 
 </head>
 <body>
 
+<div id="first" class="wrapper">
 
-	<div id="home" class="wrapper" > 
+	<div class="logo" >
+		<!-- <img src="../images/Logo02.png" onmouseover="hover(this);" onmouseout="unhover(this);"> -->
+	</div>	
 
-	<div id="logo"> <img src="../images/philogo.png"></div>
-		<div id="phi">
+	<div class="text">
+		<h1> PHI LAB </h1>
+		<h2> The Future of Event Spaces </h2>
+	</div>
 
-		 </div>
+</div>
 
-		<div class="container">
-			<span class="txt anim-text-flow"> PHI  LAB . 3D  AUDIO  VISUAL </span>
-		</div>
+<div id="home" class="wrapper" > 
+	<div id="info"> <h3>info@philab.nl</h3> </div>
+	<div id="phi"></div>
+	<div id="wave"></div>
+</div> 
 
-		<div id="wave">	
-		</div>
 
-	</div> 
-
-<script>
-	$('.txt').html(function(i, html) {
-  var chars = $.trim(html).split("");
-
-  return '<span>' + chars.join('</span><span>') + '</span>';
-});
-</script>
 
 <script src="js/three.min.js"></script>
 <script src="js/CanvasRenderer.js"></script>
@@ -56,11 +56,4 @@
 <script src="js/wave.js"></script>
 <script src="js/iso.js"></script>
 
-
 </body>
- <!-- Code Pen Animation Credits: 
- Captain Anonymous https://codepen.io/anon/pen/GOgRZB 
- Chris Aldrige https://codepen.io/digitalhour/pen/WvGJVV
- Hendry Sadrak https://codepen.io/hendrysadrak/pen/VLMOMJ
-  -->
-</html>
