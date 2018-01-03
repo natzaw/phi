@@ -33,6 +33,7 @@ function init() {
 	camera.position.z = 10000;
 
 	scene = new THREE.Scene();
+	
 
 
 	particles = new Array();
@@ -60,6 +61,10 @@ function init() {
 	}
 
 	renderer = new THREE.CanvasRenderer();
+
+	 // SET BACKGROUND COLOR 
+	renderer.setClearColor( 0x1e1427 );
+
 	renderer.setPixelRatio( window.devicePixelRatio );
 	renderer.setSize( window.innerWidth, window.innerHeight );
 	container.appendChild( renderer.domElement );

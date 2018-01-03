@@ -24,21 +24,18 @@ h2, h3 {
     margin: 0 auto;
     padding:    0px auto;
     width: 100%;
-    /*position: fixed;*/
+    position: fixed;
     overflow: hidden;
  }
 
-#first { 
-  background: linear-gradient(#1e1427,#1e1427,#1e1427, #000000);
-}
 
 #home { 
   z-index: 1;
 }
 
 .logo { 
-  width: 225px;
-  height: 225px;
+  width: 200px;
+  height: 200px;
   margin: auto;
   margin-top: 10%;
   background: url("../images/philogo1.png") no-repeat center;
@@ -54,7 +51,7 @@ h2, h3 {
   cursor: pointer;
   border-style: none;
   border-radius: 50%;
- /* transition: background 5s ease-out;*/
+  transition: background 3s ease;
  
  -webkit-filter: blur(4px);
   -moz-filter: blur(4px);
@@ -67,6 +64,7 @@ h2, h3 {
 .text { 
   margin: auto;
   text-align: center;
+  z-index: 2;
  }
 
 #phi { 
@@ -76,28 +74,24 @@ h2, h3 {
   left: 0;
   z-index: 2;
   height: 55%;
+  width:400px;
 
-  display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
-  display: -ms-flexbox;  /* TWEENER - IE 10 */
-  display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
-  display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
-  
-  justify-content: center;
-  align-items: center;
+
+  display: inline-block;
  }
 
 
-#phi>canvas { 
+/*#phi>canvas { 
   width: auto !important; 
   height: calc(100% - 100px)!important;
   margin: auto; 
  
- }
+ }*/
 
  @media screen and (max-width:660px) { 
-    #phi>canvas { 
-      width: calc(100% - 2px)!important;
-      /*width: 100%;*/
+    #phi { 
+      width: auto  !important;
+      margin-top: -7%;
     }
   }
 
@@ -111,6 +105,12 @@ h2, h3 {
     margin-left: 20px;
   }
 
+a { 
+  font-family: 'Saira Extra Condensed', sans-serif;
+   color: #ffffff;
+   font-weight: lighter;
+   font-size: 1.1em;
+ }
 
 
 
