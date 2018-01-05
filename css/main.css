@@ -41,11 +41,11 @@ h2, h3 {
   background: url("../images/philogo1.png") no-repeat center;
   background-size: contain;
   border-radius: 50%;
-  transition: background 3s ease-in;
+  /*transition: background 3s ease-in;*/
  }
 
 
-.logo:hover { 
+/*.logo:hover { 
   background: url("../images/Logo - 0203.jpg") no-repeat center;
   background-size: contain;
   cursor: pointer;
@@ -58,7 +58,7 @@ h2, h3 {
   -o-filter: blur(4px);
   -ms-filter: blur(4px);
   filter: blur(4px);
- }
+ }*/
 
 
 .text { 
